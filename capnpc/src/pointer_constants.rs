@@ -22,7 +22,7 @@ use capnp::{any_pointer, message};
 
 use crate::codegen::FormattedText::{Branch, Indent, Line};
 use crate::codegen::{fmt, indent, line, FormattedText, GeneratorContext};
-use crate::codegen_types::{Leaf, RustTypeInfo};
+use crate::codegen::types::{Leaf, RustTypeInfo};
 use capnp::schema_capnp::type_;
 
 #[derive(Clone, Copy)]

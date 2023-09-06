@@ -24,6 +24,7 @@ pub mod node {
     impl crate::traits::OwnedStruct for Owned {
         type Reader<'a> = Reader<'a>;
         type Builder<'a> = Builder<'a>;
+        type Native = ();
     }
     impl crate::traits::Pipelined for Owned {
         type Pipeline = Pipeline;
@@ -806,6 +807,7 @@ pub mod node {
         impl crate::traits::OwnedStruct for Owned {
             type Reader<'a> = Reader<'a>;
             type Builder<'a> = Builder<'a>;
+            type Native = ();
         }
         impl crate::traits::Pipelined for Owned {
             type Pipeline = Pipeline;
@@ -1096,6 +1098,7 @@ pub mod node {
         impl crate::traits::OwnedStruct for Owned {
             type Reader<'a> = Reader<'a>;
             type Builder<'a> = Builder<'a>;
+            type Native = ();
         }
         impl crate::traits::Pipelined for Owned {
             type Pipeline = Pipeline;
@@ -1414,6 +1417,7 @@ pub mod node {
         impl crate::traits::OwnedStruct for Owned {
             type Reader<'a> = Reader<'a>;
             type Builder<'a> = Builder<'a>;
+            type Native = ();
         }
         impl crate::traits::Pipelined for Owned {
             type Pipeline = Pipeline;
@@ -1822,6 +1826,7 @@ pub mod node {
             impl crate::traits::OwnedStruct for Owned {
                 type Reader<'a> = Reader<'a>;
                 type Builder<'a> = Builder<'a>;
+                type Native = ();
             }
             impl crate::traits::Pipelined for Owned {
                 type Pipeline = Pipeline;
@@ -2122,6 +2127,7 @@ pub mod node {
         impl crate::traits::OwnedStruct for Owned {
             type Reader<'a> = Reader<'a>;
             type Builder<'a> = Builder<'a>;
+            type Native = ();
         }
         impl crate::traits::Pipelined for Owned {
             type Pipeline = Pipeline;
@@ -2616,6 +2622,7 @@ pub mod node {
         impl crate::traits::OwnedStruct for Owned {
             type Reader<'a> = Reader<'a>;
             type Builder<'a> = Builder<'a>;
+            type Native = ();
         }
         impl crate::traits::Pipelined for Owned {
             type Pipeline = Pipeline;
@@ -2929,6 +2936,7 @@ pub mod node {
         impl crate::traits::OwnedStruct for Owned {
             type Reader<'a> = Reader<'a>;
             type Builder<'a> = Builder<'a>;
+            type Native = ();
         }
         impl crate::traits::Pipelined for Owned {
             type Pipeline = Pipeline;
@@ -3313,6 +3321,7 @@ pub mod node {
         impl crate::traits::OwnedStruct for Owned {
             type Reader<'a> = Reader<'a>;
             type Builder<'a> = Builder<'a>;
+            type Native = ();
         }
         impl crate::traits::Pipelined for Owned {
             type Pipeline = Pipeline;
@@ -3674,6 +3683,7 @@ pub mod node {
         impl crate::traits::OwnedStruct for Owned {
             type Reader<'a> = Reader<'a>;
             type Builder<'a> = Builder<'a>;
+            type Native = ();
         }
         impl crate::traits::Pipelined for Owned {
             type Pipeline = Pipeline;
@@ -4331,6 +4341,7 @@ pub mod field {
     impl crate::traits::OwnedStruct for Owned {
         type Reader<'a> = Reader<'a>;
         type Builder<'a> = Builder<'a>;
+        type Native = ();
     }
     impl crate::traits::Pipelined for Owned {
         type Pipeline = Pipeline;
@@ -4835,6 +4846,7 @@ pub mod field {
         impl crate::traits::OwnedStruct for Owned {
             type Reader<'a> = Reader<'a>;
             type Builder<'a> = Builder<'a>;
+            type Native = ();
         }
         impl crate::traits::Pipelined for Owned {
             type Pipeline = Pipeline;
@@ -5259,6 +5271,7 @@ pub mod field {
         impl crate::traits::OwnedStruct for Owned {
             type Reader<'a> = Reader<'a>;
             type Builder<'a> = Builder<'a>;
+            type Native = ();
         }
         impl crate::traits::Pipelined for Owned {
             type Pipeline = Pipeline;
@@ -5532,6 +5545,7 @@ pub mod field {
         impl crate::traits::OwnedStruct for Owned {
             type Reader<'a> = Reader<'a>;
             type Builder<'a> = Builder<'a>;
+            type Native = ();
         }
         impl crate::traits::Pipelined for Owned {
             type Pipeline = Pipeline;
@@ -5843,6 +5857,7 @@ pub mod enumerant {
     impl crate::traits::OwnedStruct for Owned {
         type Reader<'a> = Reader<'a>;
         type Builder<'a> = Builder<'a>;
+        type Native = ();
     }
     impl crate::traits::Pipelined for Owned {
         type Pipeline = Pipeline;
@@ -6225,6 +6240,7 @@ pub mod superclass {
     impl crate::traits::OwnedStruct for Owned {
         type Reader<'a> = Reader<'a>;
         type Builder<'a> = Builder<'a>;
+        type Native = ();
     }
     impl crate::traits::Pipelined for Owned {
         type Pipeline = Pipeline;
@@ -6553,6 +6569,7 @@ pub mod method {
     impl crate::traits::OwnedStruct for Owned {
         type Reader<'a> = Reader<'a>;
         type Builder<'a> = Builder<'a>;
+        type Native = ();
     }
     impl crate::traits::Pipelined for Owned {
         type Pipeline = Pipeline;
@@ -7184,6 +7201,7 @@ pub mod type_ {
     impl crate::traits::OwnedStruct for Owned {
         type Reader<'a> = Reader<'a>;
         type Builder<'a> = Builder<'a>;
+        type Native = ();
     }
     impl crate::traits::Pipelined for Owned {
         type Pipeline = Pipeline;
@@ -7874,6 +7892,7 @@ pub mod type_ {
         impl crate::traits::OwnedStruct for Owned {
             type Reader<'a> = Reader<'a>;
             type Builder<'a> = Builder<'a>;
+            type Native = ();
         }
         impl crate::traits::Pipelined for Owned {
             type Pipeline = Pipeline;
@@ -8179,6 +8198,7 @@ pub mod type_ {
         impl crate::traits::OwnedStruct for Owned {
             type Reader<'a> = Reader<'a>;
             type Builder<'a> = Builder<'a>;
+            type Native = ();
         }
         impl crate::traits::Pipelined for Owned {
             type Pipeline = Pipeline;
@@ -8509,6 +8529,7 @@ pub mod type_ {
         impl crate::traits::OwnedStruct for Owned {
             type Reader<'a> = Reader<'a>;
             type Builder<'a> = Builder<'a>;
+            type Native = ();
         }
         impl crate::traits::Pipelined for Owned {
             type Pipeline = Pipeline;
@@ -8840,6 +8861,7 @@ pub mod type_ {
         impl crate::traits::OwnedStruct for Owned {
             type Reader<'a> = Reader<'a>;
             type Builder<'a> = Builder<'a>;
+            type Native = ();
         }
         impl crate::traits::Pipelined for Owned {
             type Pipeline = Pipeline;
@@ -9173,6 +9195,7 @@ pub mod type_ {
         impl crate::traits::OwnedStruct for Owned {
             type Reader<'a> = Reader<'a>;
             type Builder<'a> = Builder<'a>;
+            type Native = ();
         }
         impl crate::traits::Pipelined for Owned {
             type Pipeline = Pipeline;
@@ -9509,6 +9532,7 @@ pub mod type_ {
             impl crate::traits::OwnedStruct for Owned {
                 type Reader<'a> = Reader<'a>;
                 type Builder<'a> = Builder<'a>;
+                type Native = ();
             }
             impl crate::traits::Pipelined for Owned {
                 type Pipeline = Pipeline;
@@ -9872,6 +9896,7 @@ pub mod type_ {
             impl crate::traits::OwnedStruct for Owned {
                 type Reader<'a> = Reader<'a>;
                 type Builder<'a> = Builder<'a>;
+                type Native = ();
             }
             impl crate::traits::Pipelined for Owned {
                 type Pipeline = Pipeline;
@@ -10182,6 +10207,7 @@ pub mod type_ {
             impl crate::traits::OwnedStruct for Owned {
                 type Reader<'a> = Reader<'a>;
                 type Builder<'a> = Builder<'a>;
+                type Native = ();
             }
             impl crate::traits::Pipelined for Owned {
                 type Pipeline = Pipeline;
@@ -10466,6 +10492,7 @@ pub mod brand {
     impl crate::traits::OwnedStruct for Owned {
         type Reader<'a> = Reader<'a>;
         type Builder<'a> = Builder<'a>;
+        type Native = ();
     }
     impl crate::traits::Pipelined for Owned {
         type Pipeline = Pipeline;
@@ -10779,6 +10806,7 @@ pub mod brand {
         impl crate::traits::OwnedStruct for Owned {
             type Reader<'a> = Reader<'a>;
             type Builder<'a> = Builder<'a>;
+            type Native = ();
         }
         impl crate::traits::Pipelined for Owned {
             type Pipeline = Pipeline;
@@ -11171,6 +11199,7 @@ pub mod brand {
         impl crate::traits::OwnedStruct for Owned {
             type Reader<'a> = Reader<'a>;
             type Builder<'a> = Builder<'a>;
+            type Native = ();
         }
         impl crate::traits::Pipelined for Owned {
             type Pipeline = Pipeline;
@@ -11523,6 +11552,7 @@ pub mod value {
     impl crate::traits::OwnedStruct for Owned {
         type Reader<'a> = Reader<'a>;
         type Builder<'a> = Builder<'a>;
+        type Native = ();
     }
     impl crate::traits::Pipelined for Owned {
         type Pipeline = Pipeline;
@@ -12367,6 +12397,7 @@ pub mod annotation {
     impl crate::traits::OwnedStruct for Owned {
         type Reader<'a> = Reader<'a>;
         type Builder<'a> = Builder<'a>;
+        type Native = ();
     }
     impl crate::traits::Pipelined for Owned {
         type Pipeline = Pipeline;
@@ -12878,6 +12909,7 @@ pub mod capnp_version {
     impl crate::traits::OwnedStruct for Owned {
         type Reader<'a> = Reader<'a>;
         type Builder<'a> = Builder<'a>;
+        type Native = ();
     }
     impl crate::traits::Pipelined for Owned {
         type Pipeline = Pipeline;
@@ -13203,6 +13235,7 @@ pub mod code_generator_request {
     impl crate::traits::OwnedStruct for Owned {
         type Reader<'a> = Reader<'a>;
         type Builder<'a> = Builder<'a>;
+        type Native = ();
     }
     impl crate::traits::Pipelined for Owned {
         type Pipeline = Pipeline;
@@ -13727,6 +13760,7 @@ pub mod code_generator_request {
         impl crate::traits::OwnedStruct for Owned {
             type Reader<'a> = Reader<'a>;
             type Builder<'a> = Builder<'a>;
+            type Native = ();
         }
         impl crate::traits::Pipelined for Owned {
             type Pipeline = Pipeline;
@@ -14137,6 +14171,7 @@ pub mod code_generator_request {
             impl crate::traits::OwnedStruct for Owned {
                 type Reader<'a> = Reader<'a>;
                 type Builder<'a> = Builder<'a>;
+                type Native = ();
             }
             impl crate::traits::Pipelined for Owned {
                 type Pipeline = Pipeline;

@@ -66,6 +66,7 @@ pub trait Owned: crate::introspect::Introspect {
 pub trait OwnedStruct: crate::introspect::Introspect {
     type Reader<'a>: From<StructReader<'a>> + SetPointerBuilder + IntoInternalStructReader<'a>;
     type Builder<'a>: From<StructBuilder<'a>> + HasStructSize;
+    type Native;
 }
 
 pub trait Pipelined {

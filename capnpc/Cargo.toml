@@ -27,3 +27,9 @@ path = "src/capnpc-rust-bootstrap.rs"
 [dependencies.capnp]
 version = "0.18.0"
 path = "../capnp"
+
+[dependencies]
+quote = "1.0"
+prettyplease = "0.2.12"
+proc-macro2 = "1.0.66"
+syn = "2.0.27"

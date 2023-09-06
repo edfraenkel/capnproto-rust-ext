@@ -68,7 +68,6 @@
 //! ```
 
 pub mod codegen;
-pub mod codegen_types;
 mod pointer_constants;
 
 use std::{
